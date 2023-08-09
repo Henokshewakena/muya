@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .topbar {
+    @apply fixed top-0 z-30 flex w-full items-center justify-between px-6 py-3 mb-1;
+  }
+
+  /* banner */
+
+  .banner {
+    @apply flex my-20 px-5 gap-5 w-full;
+  }
+  .banner-left {
+    @apply flex flex-col text-left w-1/2 mt-2 py-5;
+  }
+
+  .banner-text {
+  }
+  .banner-title {
+    @apply font-normal font-averia;
+  }
+
+  .banner-right {
+    @apply flex flex-col gap-5 bg-primary-500 text-white;
+  }
+
+  .item {
+    @apply flex gap-5;
+  }
+
+  /* blog-posts */
+}
