@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function bannerCard() {
+function carrouselCard() {
   return (
-    <section className="banner">
+    <section className="carousel">
       <div className="banner-left">
         <Image src="/assets/chicken.png" alt="dish" width={350} height={320} />
 
@@ -31,4 +31,4 @@ function bannerCard() {
   );
 }
 
-export default bannerCard;
+export default carrouselCard;

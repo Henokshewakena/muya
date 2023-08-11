@@ -12,20 +12,21 @@
   /* banner */
 
   .banner {
-    @apply flex my-20 px-5 gap-5 w-full;
+    @apply flex my-20 px-20 gap-5 w-full;
   }
   .banner-left {
-    @apply flex flex-col text-left w-1/2 mt-2 py-5;
+    @apply flex flex-col gap-2 text-left w-3/5 mt-2 py-5;
   }
 
   .banner-text {
+    @apply font-light font-averia text-small-regular;
   }
   .banner-title {
-    @apply font-normal font-averia;
+    @apply font-extrabold font-averia text-heading1-bold;
   }
 
   .banner-right {
-    @apply flex flex-col gap-5 bg-primary-500 text-white;
+    @apply flex flex-col w-2/5 gap-5 bg-primary-500 text-white p-5;
   }
 
   .item {
@@ -33,4 +34,10 @@
   }
 
   /* blog-posts */
+
+  /* carousel */
+
+  .carousel {
+    @apply flex flex-row-reverse my-20 px-20 gap-5 w-full bg-primary-500;
+  }
 }

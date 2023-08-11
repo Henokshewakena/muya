@@ -23,7 +23,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <Topbar />
           <section className="main-container bg-white">
-            <div className="w-full max-w-4xl">{children}</div>
+            <div className="w-full">{children}</div>
           </section>
 
           <Footer />
